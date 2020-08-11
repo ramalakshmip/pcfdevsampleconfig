@@ -1,0 +1,12 @@
+---
+name: application
+profiles:
+- default
+label: latest
+version: 
+state: 
+propertySources:
+- name: application-default
+  source:
+    app.security.encryption.dataEncryptionPassword: ENC(nscI57Tgi9l6qFGUTgU7dFZbpt/8oScnlRC2QHdGeFoeWUoa9IGd0Syb/nBucPXI)
+ 
