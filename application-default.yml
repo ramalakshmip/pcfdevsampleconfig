@@ -1,5 +1,8 @@
 app:
+  auth:
+    csp: "default-src 'none'; script-src 'self' 'unsafe-eval' 'unsafe-inline' https://*.googletagmanager.com http://*.googletagmanager.com  https://*.google-analytics.com http://*.google-analytics.com https://no-cache.hubspot.com/* 'unsafe-inline'; connect-src 'self' 'unsafe-inline'; img-src 'self' https://*.google-analytics.com http://*.google-analytics.com https://www.ditech.com/wp-content/themes/ditech/images/favicon.ico https://no-cache.hubspot.com/ https://*.google-analytics.com https://stats.g.doubleclick.net/* data:; style-src 'self' 'unsafe-inline'; font-src 'self'; block-all-mixed-content;"
   security:
     encryption:
       dataEncryptionPassword: ENC(nscI57Tgi9l6qFGUTgU7dFZbpt/8oScnlRC2QHdGeFoeWUoa9IGd0Syb/nBucPXI)
+     
 
