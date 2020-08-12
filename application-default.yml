@@ -53,3 +53,7 @@ jasypt:
     providerName: "${APP_KEYSTORE_ENCRYPTOR_PROVIDERNAME:BC}"
 test: 
   key: ENC(nscI57Tgi9l6qFGUTgU7dFZbpt/8oScnlRC2QHdGeFoeWUoa9IGd0Syb/nBucPXI)
+finx:
+    module:
+        notifications:
+            enabled: false  
