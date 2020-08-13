@@ -78,10 +78,10 @@ app:
   security: 
     encryption: 
       algorithm: "${APP_KEYSTORE_ENCRYPTOR_ALGORITHM:PBEWITHSHAAND256BITAES-CBC-BC}"
-      apolloApiGrantUserName: ENC(eSA29GDxkDzatQzrehNfEn4LXsjJI1to6EqGxp58cmA=)
-      apolloApiGrantUserPassword: ENC(8TkeAxYjS53PIrVKtkkmmPPD+R5YF2WsivDQHHpAyV4=)
-      apolloApiUserName: ENC(T17w9smo62Wi2BSe8rOGqO4PY8DElNTQb5z5/DZkeE0=)
-      apolloApiUserPassword: ENC(Po3R4LTu++CrrDDxwshX9GHTP+2CTlmTuyPUxwDwpqE=)
+      apolloApiGrantUserName: ENC(dummyvalue)
+      apolloApiGrantUserPassword: ENC(dummyvalue)
+      apolloApiUserName: ENC(dummyvalue)
+      apolloApiUserPassword: ENC(dummyvalue)
       baseUrl: "https://dummy"
       dataEncryptionPassword: ENC(nscI57Tgi9l6qFGUTgU7dFZbpt/8oScnlRC2QHdGeFoeWUoa9IGd0Syb/nBucPXI)
       loanDashBoardUrl: "https://dummy/"
