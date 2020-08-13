@@ -1,14 +1,5 @@
 --- 
-app:
-  borrower:
-        documents:
-            accountUrl: https://ditech-dev.apigee.net/apollo-service-account/
-        message:
-            notificationUrl: https://ditech-dev.apigee.net/apollo-service-notifications/
-  datatable:
-        pagination:
-            size: 5
-  defaultTimeZone: '"America/new_york"'
+app: 
   auth: 
     cookie: 
       domain: int.ditech.com
@@ -27,6 +18,11 @@ app:
         id: ditechservicing
         secret: yChMkgqENLBTKjFXhNSc
         url: "https://int.ditech.com/api/ditech/ValidateServicingPortalExchangeToken"
+  borrower: 
+    documents: 
+      accountUrl: "https://ditech-dev.apigee.net/apollo-service-account/"
+    message: 
+      notificationUrl: "https://ditech-dev.apigee.net/apollo-service-notifications/"
   com: 
     tavant: 
       finxsvc: 
@@ -36,6 +32,13 @@ app:
             generation: 
               urls: "/uaa/oauth/token,/uaa/oauth/exchangesuccess"
           unprotectedUrlPatterns: "\"pub/**,/api/register/**,/uaa/oauth/token,/oauth/tokenexchange,/uaa/oauth/tokenexchange,/oauth/exchangesuccess,/uaa/oauth/exchangesuccess,/resource/pub/**,/resource/api/register/**,/ui/index.html,/ui/*.js,/index.html,/change-password,/forgot-login-detail,/register,/*.js,/ui/*.png,/ui/*.woff,/ui/*.woff2,/*.js,/,/assets/**\""
+  datatable: 
+    pagination: 
+      size: 5
+  defaultTimeZone: "\"America/new_york\""
+  env: 
+    ui: 
+      links: NotConfigured
   gtm: 
     appid: GTM-NFBZQMS
   idle: 
