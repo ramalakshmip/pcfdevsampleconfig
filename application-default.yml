@@ -24,10 +24,6 @@ app:
             generation: 
               urls: "/uaa/oauth/token,/uaa/oauth/exchangesuccess"
           unprotectedUrlPatterns: "\"pub/**,/api/register/**,/uaa/oauth/token,/oauth/tokenexchange,/uaa/oauth/tokenexchange,/oauth/exchangesuccess,/uaa/oauth/exchangesuccess,/resource/pub/**,/resource/api/register/**,/ui/index.html,/ui/*.js,/index.html,/change-password,/forgot-login-detail,/register,/*.js,/ui/*.png,/ui/*.woff,/ui/*.woff2,/*.js,/,/assets/**\""
-  exchange: 
-    token: 
-      private: 
-        key: "MIICdQIBADANBgkqhkiG9w0BAQEFAASCAl8wggJbAgEAAoGBAIU61oYxqfY3XngD18HK8WuP/Y/n NG8wHX8SRXJ8DnCUKOzst8ZzdZitngv5gjc1CphwKcLdwy+SWUelB2Xr1taZt91JH/fRIF/uxC5u oepCigPn0hbkQ0+99COCzFBjwRfHzModLxjhwEwSiMqzA9nDlMvpW2cjg5yU9F3+H+T9AgMBAAEC gYBzrpAg+zSRxqfvW57W9WlEtUU800uTE9s4v9uvOYqsM+mJN02nMg+032OxEBgB6btme1W3jyjw wIlnDSNsWygx8GU/l5MzGipGR3VlVwmz6ccl4ej1cvu68yDeAkdEYHz/ZfvxOxf/OR+gY63xLMcu s+PNrmDz12qD9Sqg6k65nQJBANShafp63yyUv3LdR00N9QMVt4FcALqGDeHG91ZmWEH5LlADv2Cq Y1CGc/X73sl141lfhsAqaYNy/NzHKhb4QbMCQQCgZ3xsI7W5HvL8wYT0GaNK27ifD3pfVz6UxN1O PIrDuEiu+7AIbcqTZ21ujmb7EQRsb+rgCgtUymf2sn2Z8waPAkBA+EVCpPK2U4kgFt7ne4FG/QbC PxN16uoo97uxqboEBpiRGGQMrGOGQl8CZYCQfDYIo/ivlQYChUsgRrbkp9yjAkAF66vxBeRoP9cy MyZoKCYZ1kBbRqP6ruq1bQrKH3vzu3KbWtjlhr/qbu/gG8t7SuaB5iOiP1yptYre1TnDm+/LAkBN Wo7iKmZbi33RMBNBFqwChQhWqSIZCFOjTMKx5uP864B9eDd2R/qkrih0AfAxNYMURnSt7q55GQev k98+qkfu"
   loan: 
     account: 
       status: 
@@ -36,7 +32,11 @@ app:
   mock: 
     auth: 
       enabled: true
-  security: 
+  security:
+    exchange: 
+      token: 
+        private: 
+          key: "MIICdQIBADANBgkqhkiG9w0BAQEFAASCAl8wggJbAgEAAoGBAIU61oYxqfY3XngD18HK8WuP/Y/n NG8wHX8SRXJ8DnCUKOzst8ZzdZitngv5gjc1CphwKcLdwy+SWUelB2Xr1taZt91JH/fRIF/uxC5u oepCigPn0hbkQ0+99COCzFBjwRfHzModLxjhwEwSiMqzA9nDlMvpW2cjg5yU9F3+H+T9AgMBAAEC gYBzrpAg+zSRxqfvW57W9WlEtUU800uTE9s4v9uvOYqsM+mJN02nMg+032OxEBgB6btme1W3jyjw wIlnDSNsWygx8GU/l5MzGipGR3VlVwmz6ccl4ej1cvu68yDeAkdEYHz/ZfvxOxf/OR+gY63xLMcu s+PNrmDz12qD9Sqg6k65nQJBANShafp63yyUv3LdR00N9QMVt4FcALqGDeHG91ZmWEH5LlADv2Cq Y1CGc/X73sl141lfhsAqaYNy/NzHKhb4QbMCQQCgZ3xsI7W5HvL8wYT0GaNK27ifD3pfVz6UxN1O PIrDuEiu+7AIbcqTZ21ujmb7EQRsb+rgCgtUymf2sn2Z8waPAkBA+EVCpPK2U4kgFt7ne4FG/QbC PxN16uoo97uxqboEBpiRGGQMrGOGQl8CZYCQfDYIo/ivlQYChUsgRrbkp9yjAkAF66vxBeRoP9cy MyZoKCYZ1kBbRqP6ruq1bQrKH3vzu3KbWtjlhr/qbu/gG8t7SuaB5iOiP1yptYre1TnDm+/LAkBN Wo7iKmZbi33RMBNBFqwChQhWqSIZCFOjTMKx5uP864B9eDd2R/qkrih0AfAxNYMURnSt7q55GQev k98+qkfu"
     encryption: 
       algorithm: "${APP_KEYSTORE_ENCRYPTOR_ALGORITHM:PBEWITHSHAAND256BITAES-CBC-BC}"
       dataEncryptionPassword: ENC(nscI57Tgi9l6qFGUTgU7dFZbpt/8oScnlRC2QHdGeFoeWUoa9IGd0Syb/nBucPXI)
