@@ -1,5 +1,14 @@
 --- 
-app: 
+app:
+  borrower:
+        documents:
+            accountUrl: https://ditech-dev.apigee.net/apollo-service-account/
+        message:
+            notificationUrl: https://ditech-dev.apigee.net/apollo-service-notifications/
+  datatable:
+        pagination:
+            size: 5
+  defaultTimeZone: '"America/new_york"'
   auth: 
     cookie: 
       domain: int.ditech.com
