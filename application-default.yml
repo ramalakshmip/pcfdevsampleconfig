@@ -1,5 +1,28 @@
 --- 
-app: 
+app:
+  gtm:
+        appid: GTM-NFBZQMS
+    idle:
+        session:
+            dialog:
+                time: 120000
+        time: 900
+    message:
+        pagination:
+            size: 10
+    oauth:
+        token:
+            client:
+                secret: ENC(gvDJPtYZuBTbZz9XcyLcCbq0frJzJs6cchIgZsTqqMu5GoCIWKnpn64ZT+LDKl/3)
+            clientid: X261SdoCrqM8w8LRRRZODyga4RwCB856
+            url: https://ditech-dev.apigee.net/oauth/client_credential/accesstoken?grant_type=client_credentials
+    oneTimePaymentTimeZone: America/chicago
+    regular:
+        payment:
+            value: 10000
+    remember:
+        cookie:
+            span: 3
   auth: 
     cookie: 
       domain: int.ditech.com
