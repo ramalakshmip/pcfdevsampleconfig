@@ -42,6 +42,23 @@ app:
       dataEncryptionPassword: ENC(nscI57Tgi9l6qFGUTgU7dFZbpt/8oScnlRC2QHdGeFoeWUoa9IGd0Syb/nBucPXI)
       providername: BC
       updatesecurityQuestionsUrl: N/A
+      apolloApiGrantUserName: ENC(eSA29GDxkDzatQzrehNfEn4LXsjJI1to6EqGxp58cmA=)
+      apolloApiGrantUserPassword: ENC(8TkeAxYjS53PIrVKtkkmmPPD+R5YF2WsivDQHHpAyV4=)
+      apolloApiUserName: ENC(T17w9smo62Wi2BSe8rOGqO4PY8DElNTQb5z5/DZkeE0=)
+      apolloApiUserPassword: ENC(Po3R4LTu++CrrDDxwshX9GHTP+2CTlmTuyPUxwDwpqE=)
+      baseUrl: "https://ditech-dev.apigee.net"
+      loanDashBoardUrl: "https://ditech-dev.apigee.net/apollo-service-loan/loan/dashboard/"
+      loanSnapshotUrl: "https://ditech-dev.apigee.net/apollo-service-loan/"
+      oAuthUrl: "https://ditech-dev.apigee.net/apollo-auth/auth/"
+      paymentUrl: "https://ditech-dev.apigee.net/apollo-service-payment/"
+      personalizationUrl: "https://ditech-dev.apigee.net/apollo-service-personalization/"
+      registerUserUrl: "https://ditech-dev.apigee.net/apollo-auth/auth/registration/portal/user"
+      securityQuestionsUrl: "https://ditech-dev.apigee.net/apollo-auth/auth/registration/security/questions"
+      updateEmailUrl: "https://ditech-dev.apigee.net/apollo-auth/auth/email/update"
+      userLookUpUrl: "https://ditech-dev.apigee.net/apollo-auth/auth/registration/lookup/username/"
+      validateUserUrl: "https://ditech-dev.apigee.net/apollo-auth/auth/registration/account/validate"
+      verifyIdentityUrl: "https://ditech-dev.apigee.net/apollo-auth/auth/security/validate/answer"
+
   use: 
     cookie: 
       auhtheader: 
