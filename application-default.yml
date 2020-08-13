@@ -10,6 +10,9 @@ app:
       client: 
         id: finxservicing
         secret: ENC(pgbjkLUk09VbUr145w0x+W5CmOXweC9uM2psb+a0Q0Yc/Liy9sTRR2NnFYXtGflPZvks6GUxLpYg2QX6Oovy/Q==)
+    token: 
+      newurl: 
+        enabled: true
     validate: 
       token: 
         id: ditechservicing
