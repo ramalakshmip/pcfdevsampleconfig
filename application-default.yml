@@ -2,10 +2,10 @@
 app: 
   auth: 
     cookie: 
-      domain: dummy.com
+      domain: int.ditech.com
     csp: "\"default-src 'none'; script-src 'self' 'unsafe-eval' 'unsafe-inline' https://*.googletagmanager.com http://*.googletagmanager.com  https://*.google-analytics.com http://*.google-analytics.com https://no-cache.hubspot.com/* 'unsafe-inline'; connect-src 'self' 'unsafe-inline'; img-src 'self' https://*.google-analytics.com http://*.google-analytics.com https://www.ditech.com/wp-content/themes/ditech/images/favicon.ico https://no-cache.hubspot.com/ https://*.google-analytics.com https://stats.g.doubleclick.net/* data:; style-src 'self' 'unsafe-inline'; font-src 'self'; block-all-mixed-content;\""
     redirect: 
-      url: "http://dummy.com/"
+      url: "http://my.int.ditech.com/"
     servicing: 
       client: 
         id: finxservicing
@@ -20,9 +20,9 @@ app:
         url: "https://int.ditech.com/api/ditech/ValidateServicingPortalExchangeToken"
   borrower: 
     documents: 
-      accountUrl: "https://dummy/"
+      accountUrl: "https://ditech-dev.apigee.net/apollo-service-account/"
     message: 
-      notificationUrl: "https://dummy"
+      notificationUrl: "https://ditech-dev.apigee.net/apollo-service-notifications/"
   com: 
     tavant: 
       finxsvc: 
@@ -40,7 +40,7 @@ app:
     ui: 
       links: NotConfigured
   gtm: 
-    appid: dummyvalue
+    appid: GTM-NFBZQMS
   idle: 
     session: 
       dialog: 
@@ -52,10 +52,10 @@ app:
         matrix: "\"[{\"accountStatus\":\"REG\",\"statusOfAccount\":{\"closed\":\"0\",\"bk\":\"00\",\"pbk\":\"0\",\"fc\":\"0\"}},{\"accountStatus\":\"FC\",\"statusOfAccount\":{\"closed\":\"0\",\"bk\":\"00\",\"pbk\":\"0\",\"fc\":\"1\"}},{\"accountStatus\":\"PBK\",\"statusOfAccount\":{\"closed\":\"0\",\"bk\":\"00\",\"pbk\":\"1\",\"fc\":\"0\"}},{\"accountStatus\":\"PBK\",\"statusOfAccount\":{\"closed\":\"0\",\"bk\":\"00\",\"pbk\":\"1\",\"fc\":\"1\"}},{\"accountStatus\":\"BK\",\"statusOfAccount\":{\"closed\":\"0\",\"bk\":\"01\",\"pbk\":\"0\",\"fc\":\"0\"}},{\"accountStatus\":\"BK\",\"statusOfAccount\":{\"closed\":\"0\",\"bk\":\"01\",\"pbk\":\"0\",\"fc\":\"1\"}},{\"accountStatus\":\"BK\",\"statusOfAccount\":{\"closed\":\"0\",\"bk\":\"01\",\"pbk\":\"1\",\"fc\":\"0\"}},{\"accountStatus\":\"BK\",\"statusOfAccount\":{\"closed\":\"0\",\"bk\":\"01\",\"pbk\":\"1\",\"fc\":\"1\"}},{\"accountStatus\":\"CL\",\"statusOfAccount\":{\"closed\":\"1\",\"bk\":\"00\",\"pbk\":\"0\",\"fc\":\"0\"}},{\"accountStatus\":\"CFC\",\"statusOfAccount\":{\"closed\":\"1\",\"bk\":\"00\",\"pbk\":\"0\",\"fc\":\"1\"}},{\"accountStatus\":\"CPBK\",\"statusOfAccount\":{\"closed\":\"1\",\"bk\":\"00\",\"pbk\":\"1\",\"fc\":\"0\"}},{\"accountStatus\":\"CPBK\",\"statusOfAccount\":{\"closed\":\"1\",\"bk\":\"00\",\"pbk\":\"1\",\"fc\":\"1\"}},{\"accountStatus\":\"CBK\",\"statusOfAccount\":{\"closed\":\"1\",\"bk\":\"01\",\"pbk\":\"0\",\"fc\":\"0\"}},{\"accountStatus\":\"CBK\",\"statusOfAccount\":{\"closed\":\"1\",\"bk\":\"01\",\"pbk\":\"0\",\"fc\":\"1\"}},{\"accountStatus\":\"CBK\",\"statusOfAccount\":{\"closed\":\"1\",\"bk\":\"01\",\"pbk\":\"1\",\"fc\":\"0\"}},{\"accountStatus\":\"CBK\",\"statusOfAccount\":{\"closed\":\"1\",\"bk\":\"01\",\"pbk\":\"1\",\"fc\":\"1\"}}]\""
         parameters: "\"[{\"key\":\"app.payments.makepayment.warning\",\"status\":\"REG\",\"value\":\"Your Instant Electronic Payment cannot exceed {{1}}. Please call <a href='tel:1-800-643-0202' class='f-bold color-brand'>1-800-643-0202</a> for assistance.\"},{\"key\":\"app.top.message\",\"status\":\"BK\",\"value\":\"If you are currently in bankruptcy or have received a discharge in bankruptcy, the information provided on this website is not an attempt to collect a debt from you personally to the extent that the debt is included in your bankruptcy or has been discharged, but is provided for informational purposes only.\"},{\"key\":\"app.summary.interest.tooltip\",\"status\":\"BK\",\"value\":\"This interest rate shown could be due to the bankruptcy plan and not the contractual interest rate.\"},{\"key\":\"app.payments.makepayment.message\",\"status\":\"BK\",\"value\":\"This account is not eligible for Autopay and Instant Electronic Payment. Please call the Bankruptcy Department at <a href='tel:1-888-298-7785' class='f-bold color-brand'>1-888-298-7785</a> for assistance.\"},{\"key\":\"app.payments.activity.message\",\"status\":\"BK\",\"value\":\"Please call the Bankruptcy Department at <a href='tel:1-888-298-7785' class='f-bold color-brand'>1-888-298-7785</a> for assistance on your account's payment activity.\"},{\"key\":\"app.payments.info.payhistory.message\",\"status\":\"BK\",\"value\":\"Please call the Bankruptcy Department at <a href='tel:1-888-298-7785' class='f-bold color-brand'>1-888-298-7785</a> for assistance on your account's payment history.\"},{\"key\":\"app.payments.info.varhistory.message\",\"status\":\"BK\",\"value\":\"Please call the Bankruptcy Department at <a href='tel:1-888-298-7785' class='f-bold color-brand'>1-888-298-7785</a> for assistance on your account's variable interest rate history.\"},{\"key\":\"app.payoff.message\",\"status\":\"BK\",\"value\":\"Please call the Bankruptcy Department at <a href='tel:1-888-298-7785' class='f-bold color-brand'>1-888-298-7785</a> for any assistance.\"},{\"key\":\"app.hoa.assistance.message\",\"status\":\"BK\",\"value\":\"Please call the Bankruptcy Department at <a href='tel:1-888-298-7785' class='f-bold color-brand'>1-888-298-7785</a> for any assistance.\"},{\"key\":\"app.preferences.alerts.message\",\"status\":\"BK\",\"value\":\"The status of this account makes it ineligible to use Ditech Digital Alerts.\"},{\"key\":\"app.preferences.autopay.message\",\"status\":\"BK\",\"value\":\"This account is not eligible for Autopay. Please call the Bankruptcy Department at <a href='tel:1-888-298-7785' class='f-bold color-brand'>1-888-298-7785</a> for any assistance.\"},{\"key\":\"app.marketing.flag\",\"status\":\"BK\",\"value\":\"false\"},{\"key\":\"app.payments.makepayment.warning\",\"status\":\"BK\",\"value\":\"Your Instant Electronic Payment cannot exceed {{1}}. Please call the Bankruptcy Department at <a href='tel:1-888-298-7785' class='f-bold color-brand'>1-888-298-7785</a> for any assistance.\"},{\"key\":\"app.menuitems\",\"status\":\"CL\",\"value\":\"Summary,Document Center\"},{\"key\":\"app.top.message\",\"status\":\"PBK\",\"value\":\"If you are currently in bankruptcy or if the obligation to repay this account was discharged in bankruptcy, the information provided on this website is informational only. It is not an attempt to collect the debt. You may disregard information pertaining to payment remittance. You are not obligated to make payments and any amount(s) paid voluntary and are at your discretion.\"},{\"key\":\"app.summary.lateFeeDue.label\",\"status\":\"PBK\",\"value\":\"Late Fees\"},{\"key\":\"app.summary.pastDueAmount.label\",\"status\":\"PBK\",\"value\":\"Past Amount\"},{\"key\":\"app.summary.lastPayment.label\",\"status\":\"PBK\",\"value\":\"Last Voluntary Payment\"},{\"key\":\"app.summary.paymentRemaining.label\",\"status\":\"PBK\",\"value\":\"Voluntary Payment Remaining\"},{\"key\":\"app.paymentAmount.label\",\"status\":\"PBK\",\"value\":\"Voluntary Payment Amount\"},{\"key\":\"app.paymentDueDate.label\",\"status\":\"PBK\",\"value\":\"Voluntary Due Date\"},{\"key\":\"app.payments.makepayment.warning\",\"status\":\"PBK\",\"value\":\"Your Instant Electronic Payment cannot exceed {{1}}. Please call <a href='tel:1-800-643-0202' class='f-bold color-brand'>1-800-643-0202</a> for assistance.\"},{\"key\":\"app.hoa.assistance.message\",\"status\":\"PBK\",\"value\":\"Please call customer service at <a href='tel:1-800-643-0202' class='f-bold color-brand'>1-800-643-0202</a> for assistance.\"},{\"key\":\"app.preferences.alerts.message\",\"status\":\"PBK\",\"value\":\"The status of this account makes it ineligible to use Ditech Digital                    Alerts.\"},{\"key\":\"app.marketing.flag\",\"status\":\"PBK\",\"value\":\"false\"},{\"key\":\"app.preferences.autopay.message\",\"status\":\"FC\",\"value\":\"This account is not eligible for Autopay due to the account status. Please call <a href='tel:1-800-643-0202' class='f-bold color-brand'>1-800-643-0202</a> for assistance.\"},{\"key\":\"app.payments.makepayment.message\",\"status\":\"FC\",\"value\":\"This account is not eligible for Autopay or Instant Electronic Payments due to the account status. Please call <a href='tel:1-800-643-0202'>1-800-643-0202</a> for assistance.\"},{\"key\":\"app.payoff.message\",\"status\":\"FC\",\"value\":\"Due to the status of your account, we are unable to process your request online. Please call <a href='tel:1-800-643-0202' class='f-bold color-brand'>1-800-643-0202</a> for assistance.\"},{\"key\":\"app.preferences.alerts.message\",\"status\":\"FC\",\"value\":\"The status of this account makes it ineligible to use Ditech Digital Alerts.\"},{\"key\":\"app.marketing.flag\",\"status\":\"FC\",\"value\":\"false\"},{\"key\":\"app.summary.message\",\"status\":\"CL\",\"value\":\"<p class='text-center my-0'>Account {{1}} is closed.</p><p class='m-0 text-center'>For additional information about this account please <a class='cursor-pointer text-underline' href='javascript:void(0)' (click)='openLink('contactUsLink')'>contact customer service.</a></p>\"},{\"key\":\"app.top.message\",\"status\":\"CBK\",\"value\":\"If you are currently in bankruptcy or have received a discharge in bankruptcy, the information provided on this website is not an attempt to collect a debt from you personally to the extent that the debt is included in your bankruptcy or has been discharged, but is provided for informational purposes only.\"},{\"key\":\"app.top.message\",\"status\":\"CPBK\",\"value\":\"If you are currently in bankruptcy or if the obligation to repay this account was discharged in bankruptcy, the information provided on this website is informational only. It is not an attempt to collect the debt. You may disregard information pertaining to payment remittance. You are not obligated to make payments and any amount(s) paid voluntary and are at your discretion.\"},{\"key\":\"app.menuitems\",\"status\":\"CPBK\",\"value\":\"Summary,Document Center\"},{\"key\":\"app.menuitems\",\"status\":\"CBK\",\"value\":\"Summary,Document Center\"},{\"key\":\"app.summary.message\",\"status\":\"CBK\",\"value\":\"<p class='text-center my-0'>Account {{1}} is closed.</p><p class='m-0 text-center'>For additional information about this account please <a href='javascript:void(0)' class='cursor-pointer text-underline' (click)='openLink('contactUsLink')'>contact customer service.</a></p>\"},{\"key\":\"app.summary.message\",\"status\":\"CPBK\",\"value\":\"<p class='text-center my-0'>Account {{1}} is closed.</p><p class='m-0 text-center'>For additional information about this account please <a href='javascript:void(0)' class='cursor-pointer text-underline' (click)='openLink('contactUsLink')'>contact customer service.</a></p>\"},{\"key\":\"app.summary.message\",\"status\":\"FC\",\"value\":\"<p class='m-0'>Due to the status of this account we are unable to provide Loan Summary information online.</p><p>Please contact Ditech at <a href='tel:1-800-643-0202' class='f-bold color-brand'>1-800-643-0202</a> for more information.</p>\"},{\"key\":\"app.marketing.flag\",\"status\":\"CBK\",\"value\":\"false\"},{\"key\":\"app.marketing.flag\",\"status\":\"CPBK\",\"value\":\"false\"},{\"key\":\"app.menuitems\",\"status\":\"CFC\",\"value\":\"Summary,Document Center\"},{\"key\":\"app.summary.message\",\"status\":\"CFC\",\"value\":\"<p class='text-center my-0'>Account {{1}} is closed.</p><p class='m-0 text-center'>For additional information about this account please <a class='cursor-pointer text-underline' href='javascript:void(0)' (click)='openLink('contactUsLink')'>contact customer service.</a></p>\"},{\"key\":\"app.marketing.flag\",\"status\":\"CFC\",\"value\":\"false\"}]\""
     summary: 
-      loanArmURL: "https://dummyvalue/"
+      loanArmURL: "https://ditech-dev.apigee.net/apollo-service-loan/variable/interest/rate/"
     zillow: 
       id: X1-ZWz185hbj2j6dn_3jtqm
-      url: "http://dummy/webservice/GetSearchResults.htm"
+      url: "http://www.zillow.com/webservice/GetSearchResults.htm"
   message: 
     pagination: 
       size: 10
@@ -67,7 +67,7 @@ app:
       client: 
         secret: ENC(gvDJPtYZuBTbZz9XcyLcCbq0frJzJs6cchIgZsTqqMu5GoCIWKnpn64ZT+LDKl/3)
       clientid: X261SdoCrqM8w8LRRRZODyga4RwCB856
-      url: "https://dummyvalues"
+      url: "https://ditech-dev.apigee.net/oauth/client_credential/accesstoken?grant_type=client_credentials"
   oneTimePaymentTimeZone: America/chicago
   regular: 
     payment: 
@@ -78,25 +78,25 @@ app:
   security: 
     encryption: 
       algorithm: "${APP_KEYSTORE_ENCRYPTOR_ALGORITHM:PBEWITHSHAAND256BITAES-CBC-BC}"
-      apolloApiGrantUserName: ENC(dummyvalue)
-      apolloApiGrantUserPassword: ENC(dummyvalue)
-      apolloApiUserName: ENC(dummyvalue)
-      apolloApiUserPassword: ENC(dummyvalue)
-      baseUrl: "https://dummy"
+      apolloApiGrantUserName: ENC(eSA29GDxkDzatQzrehNfEn4LXsjJI1to6EqGxp58cmA=)
+      apolloApiGrantUserPassword: ENC(8TkeAxYjS53PIrVKtkkmmPPD+R5YF2WsivDQHHpAyV4=)
+      apolloApiUserName: ENC(T17w9smo62Wi2BSe8rOGqO4PY8DElNTQb5z5/DZkeE0=)
+      apolloApiUserPassword: ENC(Po3R4LTu++CrrDDxwshX9GHTP+2CTlmTuyPUxwDwpqE=)
+      baseUrl: "https://ditech-dev.apigee.net"
       dataEncryptionPassword: ENC(nscI57Tgi9l6qFGUTgU7dFZbpt/8oScnlRC2QHdGeFoeWUoa9IGd0Syb/nBucPXI)
-      loanDashBoardUrl: "https://dummy/"
-      loanSnapshotUrl: "https://dummy/"
-      oAuthUrl: "https://dummy/"
-      paymentUrl: "https://dummy"
-      personalizationUrl: "https://dummy"
+      loanDashBoardUrl: "https://ditech-dev.apigee.net/apollo-service-loan/loan/dashboard/"
+      loanSnapshotUrl: "https://ditech-dev.apigee.net/apollo-service-loan/"
+      oAuthUrl: "https://ditech-dev.apigee.net/apollo-auth/auth/"
+      paymentUrl: "https://ditech-dev.apigee.net/apollo-service-payment/"
+      personalizationUrl: "https://ditech-dev.apigee.net/apollo-service-personalization/"
       providername: BC
-      registerUserUrl: "https://dummy"
-      securityQuestionsUrl: "https://dummy"
-      updateEmailUrl: "https://dummy"
+      registerUserUrl: "https://ditech-dev.apigee.net/apollo-auth/auth/registration/portal/user"
+      securityQuestionsUrl: "https://ditech-dev.apigee.net/apollo-auth/auth/registration/security/questions"
+      updateEmailUrl: "https://ditech-dev.apigee.net/apollo-auth/auth/email/update"
       updatesecurityQuestionsUrl: N/A
-      userLookUpUrl: "https://dummy"
-      validateUserUrl: "https://dummy"
-      verifyIdentityUrl: "https://dummy"
+      userLookUpUrl: "https://ditech-dev.apigee.net/apollo-auth/auth/registration/lookup/username/"
+      validateUserUrl: "https://ditech-dev.apigee.net/apollo-auth/auth/registration/account/validate"
+      verifyIdentityUrl: "https://ditech-dev.apigee.net/apollo-auth/auth/security/validate/answer"
     exchange: 
       token: 
         private: 
