@@ -2,10 +2,10 @@
 app: 
   auth: 
     cookie: 
-      domain: int.ditech.com
+      domain: dummy
     csp: "\"default-src 'none'; script-src 'self' 'unsafe-eval' 'unsafe-inline' https://*.googletagmanager.com http://*.googletagmanager.com  https://*.google-analytics.com http://*.google-analytics.com https://no-cache.hubspot.com/* 'unsafe-inline'; connect-src 'self' 'unsafe-inline'; img-src 'self' https://*.google-analytics.com http://*.google-analytics.com https://www.ditech.com/wp-content/themes/ditech/images/favicon.ico https://no-cache.hubspot.com/ https://*.google-analytics.com https://stats.g.doubleclick.net/* data:; style-src 'self' 'unsafe-inline'; font-src 'self'; block-all-mixed-content;\""
     redirect: 
-      url: "http://my.int.ditech.com/"
+      url: "http://dummycom/"
     servicing: 
       client: 
         id: finxservicing
@@ -17,12 +17,12 @@ app:
       token: 
         id: ditechservicing
         secret: yChMkgqENLBTKjFXhNSc
-        url: "https://int.ditech.com/api/ditech/ValidateServicingPortalExchangeToken"
+        url: "https://dummy"
   borrower: 
     documents: 
-      accountUrl: "https://ditech-dev.apigee.net/apollo-service-account/"
+      accountUrl: "dummy"
     message: 
-      notificationUrl: "https://ditech-dev.apigee.net/apollo-service-notifications/"
+      notificationUrl: "dummy"
   com: 
     tavant: 
       finxsvc: 
@@ -40,7 +40,7 @@ app:
     ui: 
       links: NotConfigured
   gtm: 
-    appid: GTM-NFBZQMS
+    appid: dummy
   idle: 
     session: 
       dialog: 
@@ -55,7 +55,7 @@ app:
       loanArmURL: "https://ditech-dev.apigee.net/apollo-service-loan/variable/interest/rate/"
     zillow: 
       id: X1-ZWz185hbj2j6dn_3jtqm
-      url: "http://www.zillow.com/webservice/GetSearchResults.htm"
+      url: "http://dummy"
   message: 
     pagination: 
       size: 10
@@ -67,7 +67,7 @@ app:
       client: 
         secret: ENC(gvDJPtYZuBTbZz9XcyLcCbq0frJzJs6cchIgZsTqqMu5GoCIWKnpn64ZT+LDKl/3)
       clientid: X261SdoCrqM8w8LRRRZODyga4RwCB856
-      url: "https://ditech-dev.apigee.net/oauth/client_credential/accesstoken?grant_type=client_credentials"
+      url: "https://dummy"
   oneTimePaymentTimeZone: America/chicago
   regular: 
     payment: 
@@ -82,21 +82,21 @@ app:
       apolloApiGrantUserPassword: ENC(8TkeAxYjS53PIrVKtkkmmPPD+R5YF2WsivDQHHpAyV4=)
       apolloApiUserName: ENC(T17w9smo62Wi2BSe8rOGqO4PY8DElNTQb5z5/DZkeE0=)
       apolloApiUserPassword: ENC(Po3R4LTu++CrrDDxwshX9GHTP+2CTlmTuyPUxwDwpqE=)
-      baseUrl: "https://ditech-dev.apigee.net"
+      baseUrl: "https://dummy"
       dataEncryptionPassword: ENC(nscI57Tgi9l6qFGUTgU7dFZbpt/8oScnlRC2QHdGeFoeWUoa9IGd0Syb/nBucPXI)
-      loanDashBoardUrl: "https://ditech-dev.apigee.net/apollo-service-loan/loan/dashboard/"
-      loanSnapshotUrl: "https://ditech-dev.apigee.net/apollo-service-loan/"
-      oAuthUrl: "https://ditech-dev.apigee.net/apollo-auth/auth/"
-      paymentUrl: "https://ditech-dev.apigee.net/apollo-service-payment/"
-      personalizationUrl: "https://ditech-dev.apigee.net/apollo-service-personalization/"
+      loanDashBoardUrl: "https://dummy"
+      loanSnapshotUrl: "https://dummy"
+      oAuthUrl: "https://dummy"
+      paymentUrl: "https://dummy"
+      personalizationUrl: "https://dummy"
       providername: BC
-      registerUserUrl: "https://ditech-dev.apigee.net/apollo-auth/auth/registration/portal/user"
-      securityQuestionsUrl: "https://ditech-dev.apigee.net/apollo-auth/auth/registration/security/questions"
-      updateEmailUrl: "https://ditech-dev.apigee.net/apollo-auth/auth/email/update"
+      registerUserUrl: "https://dummy"
+      securityQuestionsUrl: "https://dummy"
+      updateEmailUrl: "https://dummy"
       updatesecurityQuestionsUrl: N/A
-      userLookUpUrl: "https://ditech-dev.apigee.net/apollo-auth/auth/registration/lookup/username/"
-      validateUserUrl: "https://ditech-dev.apigee.net/apollo-auth/auth/registration/account/validate"
-      verifyIdentityUrl: "https://ditech-dev.apigee.net/apollo-auth/auth/security/validate/answer"
+      userLookUpUrl: "https://dummy"
+      validateUserUrl: "https://dummy"
+      verifyIdentityUrl: "https://dummy"
     exchange: 
       token: 
         private: 
