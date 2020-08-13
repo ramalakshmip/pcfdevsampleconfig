@@ -56,4 +56,628 @@ test:
 finx:
     module:
         notifications:
-            enabled: false  
+            enabled: false
+hystrix:
+    command:
+        alert-preference:
+            circuitBreaker:
+                errorThresholdPercentage: 60
+            execution:
+                isolation:
+                    thread:
+                        timeoutInMilliseconds: 15000
+        borrower-welcome:
+            circuitBreaker:
+                errorThresholdPercentage: 60
+            execution:
+                isolation:
+                    thread:
+                        timeoutInMilliseconds: 15000
+        cancel-escrow:
+            circuitBreaker:
+                errorThresholdPercentage: 60
+            execution:
+                isolation:
+                    thread:
+                        timeoutInMilliseconds: 15000
+        cancel-escrow-eligibility:
+            circuitBreaker:
+                errorThresholdPercentage: 60
+            execution:
+                isolation:
+                    thread:
+                        timeoutInMilliseconds: 15000
+        cancel-onetimepay:
+            circuitBreaker:
+                errorThresholdPercentage: 60
+            execution:
+                isolation:
+                    thread:
+                        timeoutInMilliseconds: 15000
+        change-password:
+            circuitBreaker:
+                errorThresholdPercentage: 60
+            execution:
+                isolation:
+                    thread:
+                        timeoutInMilliseconds: 15000
+        clear-cache:
+            circuitBreaker:
+                errorThresholdPercentage: 60
+            execution:
+                isolation:
+                    thread:
+                        timeoutInMilliseconds: 15000
+        create-autopay-pref:
+            circuitBreaker:
+                errorThresholdPercentage: 60
+            execution:
+                isolation:
+                    thread:
+                        timeoutInMilliseconds: 15000
+        default:
+            execution:
+                isolation:
+                    thread:
+                        timeoutInMilliseconds: 15000
+        delete-alert:
+            circuitBreaker:
+                errorThresholdPercentage: 60
+            execution:
+                isolation:
+                    thread:
+                        timeoutInMilliseconds: 15000
+        delete-message:
+            circuitBreaker:
+                errorThresholdPercentage: 60
+            execution:
+                isolation:
+                    thread:
+                        timeoutInMilliseconds: 15000
+        documents-bytype:
+            circuitBreaker:
+                errorThresholdPercentage: 60
+            execution:
+                isolation:
+                    thread:
+                        timeoutInMilliseconds: 15000
+        donotshow-flag:
+            circuitBreaker:
+                errorThresholdPercentage: 60
+            execution:
+                isolation:
+                    thread:
+                        timeoutInMilliseconds: 15000
+        download-documents:
+            circuitBreaker:
+                errorThresholdPercentage: 60
+            execution:
+                isolation:
+                    thread:
+                        timeoutInMilliseconds: 15000
+        download-lossmitigation:
+            circuitBreaker:
+                errorThresholdPercentage: 60
+            execution:
+                isolation:
+                    thread:
+                        timeoutInMilliseconds: 15000
+        download-payoffquote:
+            circuitBreaker:
+                errorThresholdPercentage: 60
+            execution:
+                isolation:
+                    thread:
+                        timeoutInMilliseconds: 15000
+        download-taxdoc:
+            circuitBreaker:
+                errorThresholdPercentage: 60
+            execution:
+                isolation:
+                    thread:
+                        timeoutInMilliseconds: 15000
+        equity-infographic:
+            circuitBreaker:
+                errorThresholdPercentage: 60
+            execution:
+                isolation:
+                    thread:
+                        timeoutInMilliseconds: 15000
+        escrow-eligibility:
+            circuitBreaker:
+                errorThresholdPercentage: 60
+            execution:
+                isolation:
+                    thread:
+                        timeoutInMilliseconds: 15000
+        escrow-payment:
+            circuitBreaker:
+                errorThresholdPercentage: 60
+            execution:
+                isolation:
+                    thread:
+                        timeoutInMilliseconds: 15000
+        export-payment:
+            circuitBreaker:
+                errorThresholdPercentage: 60
+            execution:
+                isolation:
+                    thread:
+                        timeoutInMilliseconds: 15000
+        filtered-years:
+            circuitBreaker:
+                errorThresholdPercentage: 60
+            execution:
+                isolation:
+                    thread:
+                        timeoutInMilliseconds: 15000
+        forgot-password:
+            circuitBreaker:
+                errorThresholdPercentage: 60
+            execution:
+                isolation:
+                    thread:
+                        timeoutInMilliseconds: 15000
+        forgot-username:
+            circuitBreaker:
+                errorThresholdPercentage: 60
+            execution:
+                isolation:
+                    thread:
+                        timeoutInMilliseconds: 15000
+        get-accountpref:
+            circuitBreaker:
+                errorThresholdPercentage: 60
+            execution:
+                isolation:
+                    thread:
+                        timeoutInMilliseconds: 15000
+        get-autopaypreference:
+            circuitBreaker:
+                errorThresholdPercentage: 60
+            execution:
+                isolation:
+                    thread:
+                        timeoutInMilliseconds: 15000
+        get-doctypes:
+            circuitBreaker:
+                errorThresholdPercentage: 60
+            execution:
+                isolation:
+                    thread:
+                        timeoutInMilliseconds: 15000
+        get-epayment:
+            circuitBreaker:
+                errorThresholdPercentage: 60
+            execution:
+                isolation:
+                    thread:
+                        timeoutInMilliseconds: 15000
+        get-epayments:
+            circuitBreaker:
+                errorThresholdPercentage: 60
+            execution:
+                isolation:
+                    thread:
+                        timeoutInMilliseconds: 15000
+        get-onetimepayment:
+            circuitBreaker:
+                errorThresholdPercentage: 60
+            execution:
+                isolation:
+                    thread:
+                        timeoutInMilliseconds: 15000
+        get-securityquestions:
+            circuitBreaker:
+                errorThresholdPercentage: 60
+            execution:
+                isolation:
+                    thread:
+                        timeoutInMilliseconds: 15000
+        get-statements:
+            circuitBreaker:
+                errorThresholdPercentage: 60
+            execution:
+                isolation:
+                    thread:
+                        timeoutInMilliseconds: 15000
+        get-userdetail:
+            circuitBreaker:
+                errorThresholdPercentage: 60
+            execution:
+                isolation:
+                    thread:
+                        timeoutInMilliseconds: 15000
+        grouped-documents-bytype:
+            circuitBreaker:
+                errorThresholdPercentage: 60
+            execution:
+                isolation:
+                    thread:
+                        timeoutInMilliseconds: 15000
+        inbox-message:
+            circuitBreaker:
+                errorThresholdPercentage: 60
+            execution:
+                isolation:
+                    thread:
+                        timeoutInMilliseconds: 15000
+        insurance-doctypes:
+            circuitBreaker:
+                errorThresholdPercentage: 60
+            execution:
+                isolation:
+                    thread:
+                        timeoutInMilliseconds: 15000
+        loan-arm:
+            circuitBreaker:
+                errorThresholdPercentage: 60
+            execution:
+                isolation:
+                    thread:
+                        timeoutInMilliseconds: 15000
+        loan-dashboard:
+            circuitBreaker:
+                errorThresholdPercentage: 60
+            execution:
+                isolation:
+                    thread:
+                        timeoutInMilliseconds: 15000
+        loan-doctypes:
+            circuitBreaker:
+                errorThresholdPercentage: 60
+            execution:
+                isolation:
+                    thread:
+                        timeoutInMilliseconds: 15000
+        loan-escrow:
+            circuitBreaker:
+                errorThresholdPercentage: 60
+            execution:
+                isolation:
+                    thread:
+                        timeoutInMilliseconds: 15000
+        loan-latefee:
+            circuitBreaker:
+                errorThresholdPercentage: 60
+            execution:
+                isolation:
+                    thread:
+                        timeoutInMilliseconds: 15000
+        login-user:
+            circuitBreaker:
+                errorThresholdPercentage: 60
+            execution:
+                isolation:
+                    thread:
+                        timeoutInMilliseconds: 15000
+        lookup-user:
+            circuitBreaker:
+                errorThresholdPercentage: 60
+            execution:
+                isolation:
+                    thread:
+                        timeoutInMilliseconds: 15000
+        loss-mitigation:
+            circuitBreaker:
+                errorThresholdPercentage: 60
+            execution:
+                isolation:
+                    thread:
+                        timeoutInMilliseconds: 15000
+        lossmitigation-status:
+            circuitBreaker:
+                errorThresholdPercentage: 60
+            execution:
+                isolation:
+                    thread:
+                        timeoutInMilliseconds: 15000
+        make-epayment:
+            circuitBreaker:
+                errorThresholdPercentage: 60
+            execution:
+                isolation:
+                    thread:
+                        timeoutInMilliseconds: 15000
+        mark-read:
+            circuitBreaker:
+                errorThresholdPercentage: 60
+            execution:
+                isolation:
+                    thread:
+                        timeoutInMilliseconds: 15000
+        monthly-summary:
+            circuitBreaker:
+                errorThresholdPercentage: 60
+            execution:
+                isolation:
+                    thread:
+                        timeoutInMilliseconds: 15000
+        mortgage-insurance:
+            circuitBreaker:
+                errorThresholdPercentage: 60
+            execution:
+                isolation:
+                    thread:
+                        timeoutInMilliseconds: 15000
+        next-payments:
+            circuitBreaker:
+                errorThresholdPercentage: 60
+            execution:
+                isolation:
+                    thread:
+                        timeoutInMilliseconds: 15000
+        notification-alert:
+            circuitBreaker:
+                errorThresholdPercentage: 60
+            execution:
+                isolation:
+                    thread:
+                        timeoutInMilliseconds: 15000
+        paged-documents-bytype:
+            circuitBreaker:
+                errorThresholdPercentage: 60
+            execution:
+                isolation:
+                    thread:
+                        timeoutInMilliseconds: 15000
+        paperless-billing:
+            circuitBreaker:
+                errorThresholdPercentage: 60
+            execution:
+                isolation:
+                    thread:
+                        timeoutInMilliseconds: 15000
+        payment-eligibility:
+            circuitBreaker:
+                errorThresholdPercentage: 60
+            execution:
+                isolation:
+                    thread:
+                        timeoutInMilliseconds: 15000
+        payment-history:
+            circuitBreaker:
+                errorThresholdPercentage: 60
+            execution:
+                isolation:
+                    thread:
+                        timeoutInMilliseconds: 15000
+        payment-last30days:
+            circuitBreaker:
+                errorThresholdPercentage: 60
+            execution:
+                isolation:
+                    thread:
+                        timeoutInMilliseconds: 15000
+        payment-receipt:
+            circuitBreaker:
+                errorThresholdPercentage: 60
+            execution:
+                isolation:
+                    thread:
+                        timeoutInMilliseconds: 15000
+        payment-ytdbreakdown:
+            circuitBreaker:
+                errorThresholdPercentage: 60
+            execution:
+                isolation:
+                    thread:
+                        timeoutInMilliseconds: 15000
+        postlogin-notification:
+            circuitBreaker:
+                errorThresholdPercentage: 60
+            execution:
+                isolation:
+                    thread:
+                        timeoutInMilliseconds: 15000
+        privacy-preference:
+            circuitBreaker:
+                errorThresholdPercentage: 60
+            execution:
+                isolation:
+                    thread:
+                        timeoutInMilliseconds: 15000
+        property-insurance:
+            circuitBreaker:
+                errorThresholdPercentage: 60
+            execution:
+                isolation:
+                    thread:
+                        timeoutInMilliseconds: 15000
+        property-taxes:
+            circuitBreaker:
+                errorThresholdPercentage: 60
+            execution:
+                isolation:
+                    thread:
+                        timeoutInMilliseconds: 15000
+        register-user:
+            circuitBreaker:
+                errorThresholdPercentage: 60
+            execution:
+                isolation:
+                    thread:
+                        timeoutInMilliseconds: 15000
+        reset-password:
+            circuitBreaker:
+                errorThresholdPercentage: 60
+            execution:
+                isolation:
+                    thread:
+                        timeoutInMilliseconds: 15000
+        save-privacy-pref:
+            circuitBreaker:
+                errorThresholdPercentage: 60
+            execution:
+                isolation:
+                    thread:
+                        timeoutInMilliseconds: 15000
+        save-userprofile:
+            circuitBreaker:
+                errorThresholdPercentage: 60
+            execution:
+                isolation:
+                    thread:
+                        timeoutInMilliseconds: 15000
+        send-message:
+            circuitBreaker:
+                errorThresholdPercentage: 60
+            execution:
+                isolation:
+                    thread:
+                        timeoutInMilliseconds: 15000
+        sent-message:
+            circuitBreaker:
+                errorThresholdPercentage: 60
+            execution:
+                isolation:
+                    thread:
+                        timeoutInMilliseconds: 15000
+        smartwatch:
+            circuitBreaker:
+                errorThresholdPercentage: 60
+            execution:
+                isolation:
+                    thread:
+                        timeoutInMilliseconds: 15000
+        ui-config:
+            circuitBreaker:
+                errorThresholdPercentage: 60
+            execution:
+                isolation:
+                    thread:
+                        timeoutInMilliseconds: 15000
+        unenroll-autopay-pref:
+            circuitBreaker:
+                errorThresholdPercentage: 60
+            execution:
+                isolation:
+                    thread:
+                        timeoutInMilliseconds: 15000
+        unenroll-paperlessbilling:
+            circuitBreaker:
+                errorThresholdPercentage: 60
+            execution:
+                isolation:
+                    thread:
+                        timeoutInMilliseconds: 15000
+        unread-messagecount:
+            circuitBreaker:
+                errorThresholdPercentage: 60
+            execution:
+                isolation:
+                    thread:
+                        timeoutInMilliseconds: 15000
+        update-alertPref:
+            circuitBreaker:
+                errorThresholdPercentage: 60
+            execution:
+                isolation:
+                    thread:
+                        timeoutInMilliseconds: 15000
+        update-autopay-pref:
+            circuitBreaker:
+                errorThresholdPercentage: 60
+            execution:
+                isolation:
+                    thread:
+                        timeoutInMilliseconds: 15000
+        update-email:
+            circuitBreaker:
+                errorThresholdPercentage: 60
+            execution:
+                isolation:
+                    thread:
+                        timeoutInMilliseconds: 15000
+        update-escrow-analysis:
+            circuitBreaker:
+                errorThresholdPercentage: 60
+            execution:
+                isolation:
+                    thread:
+                        timeoutInMilliseconds: 15000
+        update-onetimepayment:
+            circuitBreaker:
+                errorThresholdPercentage: 60
+            execution:
+                isolation:
+                    thread:
+                        timeoutInMilliseconds: 15000
+        update-paperlessbilling:
+            circuitBreaker:
+                errorThresholdPercentage: 60
+            execution:
+                isolation:
+                    thread:
+                        timeoutInMilliseconds: 15000
+        update-securityquestions:
+            circuitBreaker:
+                errorThresholdPercentage: 60
+            execution:
+                isolation:
+                    thread:
+                        timeoutInMilliseconds: 15000
+        update-securityqustions:
+            circuitBreaker:
+                errorThresholdPercentage: 60
+            execution:
+                isolation:
+                    thread:
+                        timeoutInMilliseconds: 15000
+        upload-claims:
+            circuitBreaker:
+                errorThresholdPercentage: 60
+            execution:
+                isolation:
+                    thread:
+                        timeoutInMilliseconds: 15000
+        upload-lossmitigation:
+            circuitBreaker:
+                errorThresholdPercentage: 60
+            execution:
+                isolation:
+                    thread:
+                        timeoutInMilliseconds: 15000
+        upload-tax-insuranse:
+            circuitBreaker:
+                errorThresholdPercentage: 60
+            execution:
+                isolation:
+                    thread:
+                        timeoutInMilliseconds: 15000
+        validate-bank:
+            circuitBreaker:
+                errorThresholdPercentage: 60
+            execution:
+                isolation:
+                    thread:
+                        timeoutInMilliseconds: 15000
+        validate-token:
+            circuitBreaker:
+                errorThresholdPercentage: 60
+            execution:
+                isolation:
+                    thread:
+                        timeoutInMilliseconds: 15000
+        validate-user:
+            circuitBreaker:
+                errorThresholdPercentage: 60
+            execution:
+                isolation:
+                    thread:
+                        timeoutInMilliseconds: 15000
+        verify-epayments:
+            circuitBreaker:
+                errorThresholdPercentage: 60
+            execution:
+                isolation:
+                    thread:
+                        timeoutInMilliseconds: 15000
+        verify-identity:
+            circuitBreaker:
+                errorThresholdPercentage: 60
+            execution:
+                isolation:
+                    thread:
+                        timeoutInMilliseconds: 15000
+
