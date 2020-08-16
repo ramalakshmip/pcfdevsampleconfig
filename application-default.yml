@@ -20,9 +20,9 @@ app:
         url: "https://dummy"
   borrower: 
     documents: 
-      accountUrl: "dummy"
+      accountUrl: dummy
     message: 
-      notificationUrl: "dummy"
+      notificationUrl: dummy
   com: 
     tavant: 
       finxsvc: 
@@ -38,12 +38,7 @@ app:
   defaultTimeZone: "\"America/new_york\""
   env: 
     ui: 
-      links: "{"privacyPolicyLink": "https://int.ditech.com/privacy/","securityLink": "https://int.ditech.com/security/",	"legalLink": "https://int.ditech.com/legal/",
-	"licensingLink": "https://int.ditech.com/licensing/","termsOfUseLink": "https://int.ditech.com/terms-of-use/",	"ditechLink": "https://int.ditech.com",
-	"resourcesLink": "https://int.ditech.com/find-a-home-loan-specialist/",	"contactUsLink": "https://int.ditech.com/contact-us/","escrowFAQLink": "https://int.ditech.com/faq-category/escrow/","headerFAQLink": "https://int.ditech.com/homeowner-resources/mortgage-topics/frequently-asked-questions/",
-	"mortgageCalcLink": "https://int.ditech.com/calculators/pi-payment-calculator/","hoaLink": "https://wwwtst.ditech.com/manage-my-account/homeowner-resources/mortgage-assistance/",
-	"modificationLink": "https://int.ditech.com/homeowner-resources/loan-modifications/","makingHomeAffordableLink": "http://www.makinghomeaffordable.gov/programs/lower-rates/Pages/harp.aspx","fannieMaeLink": "http://www.fanniemae.com","freddiemacLink": "http://www.freddiemac.com",
-	"summaryMoreInfoLink": "https://wwwtst.ditech.com/mortgage-glossary/#U","nmlsLink": "http://www.nmlsconsumeraccess.org/EntityDetails.aspx/COMPANY/1057",	"source":"finxServicing","makePaymentLink":"https://wwwtst.ditech.com/manage-my-account/make-a-payment/","payoffRequestLink":"https://int.ditech.com/Buying-a-home-or-refinancing/?utm_source=Account&utm_medium=Slideover&utm_campaign=Payoffslideover","externalLogoutUrl":"https://int.ditech.com/login","zilloLink":"http://www.zillow.com/","zillotermsOfUseLink":"https://www.zillow.com/corp/Terms.htm","showInternalAuthScreen":true, "zilloZestimateLink":"https://www.zillow.com/zestimate/","externalLoginUrl":"https://int.ditech.com/login?s=1","cookieDomain":"int.ditech.com"}"
+      links: "{\"privacyPolicyLink\": \"dummy\",\"securityLink\": \"dummy\",\"legalLink\": \"dummy\", \"licensingLink\": \"dummy\",\"termsOfUseLink\": \"dummy\",	\"ditechLink\": \"dummy\", \"resourcesLink\": \"dummy\",	\"contactUsLink\": \"dummy\",\"escrowFAQLink\": \"dummy\",\"headerFAQLink\": \"dummy\", \"mortgageCalcLink\": \"dummy\",\"hoaLink\": \"dummy\", \"modificationLink\": \"dummy\",\"makingHomeAffordableLink\": \"dummy\",\"fannieMaeLink\": \"dummy\",\"freddiemacLink\": \"dummy\", \"summaryMoreInfoLink\": \"dummy\",\"nmlsLink\": \"dummy\",	\"source\":\"dummy\",\"makePaymentLink\":\"dummy\",\"payoffRequestLink\":\"dummy\",\"externalLogoutUrl\":\"dummy\",\"zilloLink\":\"dummy\",\"zillotermsOfUseLink\":\"dummy\",\"showInternalAuthScreen\":true, \"zilloZestimateLink\":\"dummy\",\"externalLoginUrl\":\"dummy\",\"cookieDomain\":\"dummy\"}"
   gtm: 
     appid: GTM-NFBZQMS
   idle: 
