@@ -40,7 +40,7 @@ app:
     ui: 
       links: NotConfigured
   gtm: 
-    appid: dummy
+    appid: GTM-NFBZQMS
   idle: 
     session: 
       dialog: 
