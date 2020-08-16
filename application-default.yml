@@ -38,7 +38,12 @@ app:
   defaultTimeZone: "\"America/new_york\""
   env: 
     ui: 
-      links: NotConfigured
+      links: "{"privacyPolicyLink": "https://int.ditech.com/privacy/","securityLink": "https://int.ditech.com/security/",	"legalLink": "https://int.ditech.com/legal/",
+	"licensingLink": "https://int.ditech.com/licensing/","termsOfUseLink": "https://int.ditech.com/terms-of-use/",	"ditechLink": "https://int.ditech.com",
+	"resourcesLink": "https://int.ditech.com/find-a-home-loan-specialist/",	"contactUsLink": "https://int.ditech.com/contact-us/","escrowFAQLink": "https://int.ditech.com/faq-category/escrow/","headerFAQLink": "https://int.ditech.com/homeowner-resources/mortgage-topics/frequently-asked-questions/",
+	"mortgageCalcLink": "https://int.ditech.com/calculators/pi-payment-calculator/","hoaLink": "https://wwwtst.ditech.com/manage-my-account/homeowner-resources/mortgage-assistance/",
+	"modificationLink": "https://int.ditech.com/homeowner-resources/loan-modifications/","makingHomeAffordableLink": "http://www.makinghomeaffordable.gov/programs/lower-rates/Pages/harp.aspx","fannieMaeLink": "http://www.fanniemae.com","freddiemacLink": "http://www.freddiemac.com",
+	"summaryMoreInfoLink": "https://wwwtst.ditech.com/mortgage-glossary/#U","nmlsLink": "http://www.nmlsconsumeraccess.org/EntityDetails.aspx/COMPANY/1057",	"source":"finxServicing","makePaymentLink":"https://wwwtst.ditech.com/manage-my-account/make-a-payment/","payoffRequestLink":"https://int.ditech.com/Buying-a-home-or-refinancing/?utm_source=Account&utm_medium=Slideover&utm_campaign=Payoffslideover","externalLogoutUrl":"https://int.ditech.com/login","zilloLink":"http://www.zillow.com/","zillotermsOfUseLink":"https://www.zillow.com/corp/Terms.htm","showInternalAuthScreen":true, "zilloZestimateLink":"https://www.zillow.com/zestimate/","externalLoginUrl":"https://int.ditech.com/login?s=1","cookieDomain":"int.ditech.com"}"
   gtm: 
     appid: GTM-NFBZQMS
   idle: 
