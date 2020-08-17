@@ -56,6 +56,7 @@ app:
     zillow: 
       id: X1-ZWz185hbj2j6dn_3jtqm
       url: "http://dummy"
+  menuitems: "[{\"name\":\"Summary\",\"url\":\"/summary\",\"icon\":\"icon-summary\"},{\"name\":\"Payments\",\"url\":\"/payments\",\"icon\":\"icon-payments\"},{\"name\":\"Document Center\",\"url\":\"/document-center\",\"icon\":\"icon-document-center\"},{\"name\":\"Escrow\",\"url\":\"/escrow\",\"icon\":\"icon-escrow\"},{\"name\":\"Payoff Request\",\"url\":\"/payoff-request\",\"icon\":\"icon-payoff-request\"},{\"name\":\"Homeowner Assistance\",\"url\":\"/homeowner-assistance\",\"icon\":\"icon-homeowner-assistance\"},{\"name\":\"Account Preferences\",\"url\":\"/account-preferences\",\"icon\":\"icon-account-preferences\"}]"
   message: 
     pagination: 
       size: 10
@@ -69,6 +70,7 @@ app:
       clientid: X261SdoCrqM8w8LRRRZODyga4RwCB856
       url: "https://dummy"
   oneTimePaymentTimeZone: America/chicago
+  purposes: "{\"content\":\"Address/Phone Number,Amounts Paid/Due,Account Maintenance,Bankruptcy Account,Claims,Complaint,Documents,Insurance,Payoff,Refinance Inquiry,Tax Inquiry,Verification of Mortgage,Other\"}"
   regular: 
     payment: 
       value: 10000
