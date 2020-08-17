@@ -55,7 +55,7 @@ app:
       loanArmURL: "https://dummy/"
     zillow: 
       id: X1-ZWz185hbj2j6dn_3jtqm
-      url: "http://dummy"
+      url: "http://www.zillow.com/webservice/GetSearchResults.htm"
   menuitems: "[{\"name\":\"Summary\",\"url\":\"/summary\",\"icon\":\"icon-summary\"},{\"name\":\"Payments\",\"url\":\"/payments\",\"icon\":\"icon-payments\"},{\"name\":\"Document Center\",\"url\":\"/document-center\",\"icon\":\"icon-document-center\"},{\"name\":\"Escrow\",\"url\":\"/escrow\",\"icon\":\"icon-escrow\"},{\"name\":\"Payoff Request\",\"url\":\"/payoff-request\",\"icon\":\"icon-payoff-request\"},{\"name\":\"Homeowner Assistance\",\"url\":\"/homeowner-assistance\",\"icon\":\"icon-homeowner-assistance\"},{\"name\":\"Account Preferences\",\"url\":\"/account-preferences\",\"icon\":\"icon-account-preferences\"}]"
   message: 
     pagination: 
